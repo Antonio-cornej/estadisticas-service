@@ -1,4 +1,4 @@
-yamlname: CI/CD - estadisticas-service
+name: CI/CD - estadisticas-service
 
 on:
   push:
