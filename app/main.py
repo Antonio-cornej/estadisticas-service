@@ -8,11 +8,10 @@ los expone para el dashboard del frontend. Comparte BD y JWT con casino-backend.
 
 Prefijo de rutas: /api/estadisticas
 """
-from http.client import HTTPException
 import os
 from contextlib import asynccontextmanager
 
-from fastapi import Depends, FastAPI
+from fastapi import Depends, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 from .auth import usuario_actual
