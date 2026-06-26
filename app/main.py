@@ -40,7 +40,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
+#asd
 @app.get("/livez")
 def livez():
     return {"status": "ok", "service": "estadisticas-service"}
