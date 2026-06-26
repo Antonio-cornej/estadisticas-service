@@ -22,5 +22,5 @@ COPY app/ ./app/
 
 USER app
 
-EXPOSE 8004
+EXPOSE 8006
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8006"]
